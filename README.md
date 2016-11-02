@@ -6,16 +6,15 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
 ## Getting started
 1. Install all required Packages in Neos. See documentation [here](https://github.com/Flowpack/Flowpack.ElasticSearch.ContentRepositoryAdaptor#installation)
 2. Start a container using this image:
-
-
+    ```
     docker run --name neos-elasticsearch -p 9200:9200 -p 9300:9300 nikdro/elasticsearch-neos #foreground
     docker run -d --name neos-elasticsearch -p 9200:9200 -p 9300:9300 nikdro/elasticsearch-neos #detached
-
+    ```
+    
 3. Add configuration to Neos (if docker isn't running on localhost)
 
     Configuration/Settings.yaml:
-
-    
+    ```
     Flowpack:
       ElasticSearch:
         clients:
@@ -24,13 +23,13 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
               port: 9200 #Selected port (if not default)
               username: ''
               password: ''
+    ```
     
 4. Create index
-
-
+    ```
     ./flow nodeindex:build #all workspaces
     ./flow nodeindex:build --workspace live #only "live" workspace
-
+    ```
 
 ##Advanced Setup
 ###Make ElasticSearch accessible form other hosts
