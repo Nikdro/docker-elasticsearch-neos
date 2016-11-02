@@ -31,7 +31,11 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
     ./flow nodeindex:build --workspace live #only "live" workspace
     ```
 
+
+
+
 ##Advanced Setup
+
 ###Make ElasticSearch accessible form other hosts
 If you are running docker on another Host than Neos, you can make it accessible to other hosts.
 Just add `0.0.0.0` to host port:
