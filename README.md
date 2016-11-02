@@ -1,7 +1,7 @@
 # ElasticSearch 2  for Neos Package "Flowpack.ElasticSearch.ContentRepositoryAdaptor"
 
 ## What is it? 
-This image provides a ElasticSearch instance (Version 2) preconfigured for the Neos Package _Flowpack.ElasticSearch.ContentRepository_
+This image provides a ElasticSearch instance (Version 2) preconfigured for the Neos Package [Flowpack.ElasticSearch.ContentRepository](https://github.com/Flowpack/Flowpack.ElasticSearch.ContentRepositoryAdaptor)
 
 ## Getting started
 1. Install all required Packages in Neos. See documentation [here](https://github.com/Flowpack/Flowpack.ElasticSearch.ContentRepositoryAdaptor#installation)
@@ -30,9 +30,10 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
     ./flow nodeindex:build #all workspaces
     ./flow nodeindex:build --workspace live #only "live" workspace
     ```
-
-
+    
 5. Be **HAPPY!** :-)
+---
+
 
 ##Advanced Setup
 
