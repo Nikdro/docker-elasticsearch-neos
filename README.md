@@ -32,6 +32,8 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
     ```
     
 5. Be **HAPPY!** :-)
+
+
 ---
 
 
