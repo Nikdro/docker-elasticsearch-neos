@@ -3,3 +3,4 @@ MAINTAINER Niklas Droste <nd@kaufmann.digital>
 
 ADD config /usr/share/elasticsearch/config
 
+RUN plugin install royrusso/elasticsearch-HQ
