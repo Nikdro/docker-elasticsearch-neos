@@ -1,5 +1,5 @@
 # The following settings are absolutely required for the CR adaptor to work
-script.engine.groovy.inline.update: true
+script.inline: true
 
 # the following settings secure your cluster
 cluster.name: [neos]
