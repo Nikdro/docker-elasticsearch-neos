@@ -37,9 +37,9 @@ This image provides a ElasticSearch instance (Version 2) preconfigured for the N
 ---
 
 
-##Advanced Setup
+## Advanced Setup
 
-###Make ElasticSearch accessible form other hosts
+### Make ElasticSearch accessible form other hosts
 If you are running docker on another Host than Neos, you can make it accessible to other hosts.
 Just add `0.0.0.0` to host port:
 
@@ -48,7 +48,7 @@ Just add `0.0.0.0` to host port:
 Please note step 3 of [Getting started](#getting-started) to configure Neos...
 
 
-###Save indexes to host
+### Save indexes to host
 For productive systems, it can be very helpful to store the files of ElasticSearch on the host-system. 
 This allows a new container to use the existing index and you don't have to rebuild any index after creating a new container.
 
@@ -57,8 +57,8 @@ Just add a volume to your start-command:
 `docker run --name neos-elasticsearch -p 9200:9200 -p 9300:9300 -v ./es-data:/usr/share/elasticsearch/data nikdro/elasticsearch-neos`
 
 
-##Questions? Need Help?
+## Questions? Need Help?
 There is a channel for questions Slack for questions about (Elastic)Search at Neos'  Slack: http://slack.neos.io/
 
-###Maintainer
+### Maintainer
 [Niklas Droste (nikdro)](mailto:nd@kaufmann.digital)
