@@ -58,7 +58,7 @@ Just add a volume to your start-command:
 
 
 ## Questions? Need Help?
-There is a channel for questions Slack for questions about (Elastic)Search at Neos'  Slack: http://slack.neos.io/
+There is a Slack-channel for questions about (Elastic)Search at Neos'  Slack: http://slack.neos.io/ #guild-search
 
 ### Maintainer
 [Niklas Droste (nikdro)](mailto:nd@kaufmann.digital)
