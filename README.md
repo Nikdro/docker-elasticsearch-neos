@@ -58,9 +58,9 @@ Just add a volume to your start-command:
 
 
 ## Elastic HQ
-The container shipps [Elastic HQ](http://www.elastichq.org). It can be used to browse and monitor your indexes.
-To open the Webinterfache of Elastic HQ just enter `http://localhost:9200/_plugin/hq/`
-
+The container shipps [Elastic HQ](http://www.elastichq.org). It can be used to browse and monitor your indexes.  
+To open the Webinterfache of Elastic HQ, just navigate your browser to `http://localhost:9200/_plugin/hq/`.  
+(If your container does not run locally, replace `localhost` with IP/Host of the server)
  
 ## Questions? Need Help?
 There is a Slack-channel for questions about (Elastic)Search at Neos'  Slack: http://slack.neos.io/ #guild-search
