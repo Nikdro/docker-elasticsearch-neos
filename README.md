@@ -57,6 +57,11 @@ Just add a volume to your start-command:
 `docker run --name neos-elasticsearch -p 9200:9200 -p 9300:9300 -v ./es-data:/usr/share/elasticsearch/data nikdro/elasticsearch-neos`
 
 
+## Elastic HQ
+The container shipps [Elastic HQ](http://www.elastichq.org). It can be used to browse and monitor your indexes.
+To open the Webinterfache of Elastic HQ just enter `http://localhost:9200/_plugin/hq/`
+
+ 
 ## Questions? Need Help?
 There is a Slack-channel for questions about (Elastic)Search at Neos'  Slack: http://slack.neos.io/ #guild-search
 
