@@ -1,3 +1,4 @@
+[![Docker Build Status](https://img.shields.io/docker/build/nikdro/elasticsearch-neos.svg)]()
 # ElasticSearch 2  for Neos Package "Flowpack.ElasticSearch.ContentRepositoryAdaptor"
 
 ## What is it? 
