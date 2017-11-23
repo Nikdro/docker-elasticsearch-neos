@@ -1,4 +1,4 @@
-FROM elasticsearch:2
+FROM elasticsearch:2.4
 MAINTAINER Niklas Droste <nd@kaufmann.digital>
 
 ADD config /usr/share/elasticsearch/config
