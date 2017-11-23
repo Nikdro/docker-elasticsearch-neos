@@ -1,6 +1,5 @@
-FROM elasticsearch:2
+FROM elasticsearch:1.7
 MAINTAINER Niklas Droste <nd@kaufmann.digital>
 
 ADD config /usr/share/elasticsearch/config
 
-RUN plugin install royrusso/elasticsearch-HQ/v2.0.3
